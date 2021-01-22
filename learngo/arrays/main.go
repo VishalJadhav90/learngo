@@ -9,6 +9,9 @@ const (
 )
 
 func main() {
+	var abc [3]string
+	fmt.Println("abc", abc)
+
 	books := [...]string{
 		"The Wolf Hall",
 		"The Body Mass",
