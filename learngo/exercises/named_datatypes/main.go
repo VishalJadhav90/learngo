@@ -12,7 +12,10 @@ func main() {
 	fmt.Printf("Special Char: %c\n", sc)
 
 	type Year uint16
+	type Decade uint16
 	var bYear Year = 1990
+	//var decade uint16 = 1900
+	//fmt.Printf("are they equal: %t", bYear == decade)
 	fmt.Printf("Birth Year: %d\n", bYear)
 
 	type Month uint8
