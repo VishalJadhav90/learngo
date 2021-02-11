@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	saperator := [5]string{
+	saperator := [...]string{
 		"░░░",
 		"░█░",
 		"░░░",
@@ -16,7 +16,7 @@ func main() {
 		"░░░",
 	}
 
-	space := [5]string{
+	space := [...]string{
 		"░░░",
 		"░░░",
 		"░░░",
